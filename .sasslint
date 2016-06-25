@@ -1,0 +1,111 @@
+options:
+  merge-default-rules: false
+files:
+  include: src/styles/**/*.scss
+rules:
+  bem-depth:
+    - 2
+    - max-depth: 1
+  border-zero:
+    - 2
+    - convention: '0'
+  brace-style:
+    - 2
+    - allow-single-line: false
+      style: 1tbs
+  class-name-format:
+    - 2
+    - allow-leading-underscore: false
+      convention: hyphenatedbem
+  clean-import-paths:
+    - 2
+    - filename-extension: false
+      leading-underscore: false
+  empty-args:
+    - 2
+    - include: false
+  empty-line-between-blocks:
+    - 2
+    - include: true
+  extends-before-declarations: 2
+  extends-before-mixins: 2
+  final-newline:
+    - 2
+    - include: true
+  function-name-format:
+    - 2
+    - allow-leading-underscore: false
+  hex-length:
+    - 2
+    - style: short
+  hex-notation:
+    - 2
+    - style: lowercase
+  leading-zero:
+    - 2
+    - include: false
+  mixin-name-format:
+    - 2
+    - allow-leading-underscore: false
+  mixins-before-declarations:
+    - 2
+    - exclude: bp
+  nesting-depth:
+    - 2
+    - max-depth: 3
+  no-color-keywords: 2
+  no-debug: 2
+  no-duplicate-properties: 2
+  no-empty-rulesets: 2
+  no-extends: 2
+  no-ids: 2
+  no-important: 2
+  no-invalid-hex: 2
+  no-mergeable-selectors: 2
+  no-misspelled-properties:
+    - 2
+    - extra-properties: osx-font-smoothing
+  no-trailing-zero: 2
+  no-transition-all: 2
+  no-warn: 2
+  one-declaration-per-line: 2
+  property-units:
+    - 2
+    - global:
+      - em
+      - px
+      - s
+      - vh
+      - vw
+  quotes:
+    - 2
+    - style: single
+  shorthand-values: 2
+  single-line-per-selector: 2
+  space-after-colon:
+    - 2
+    - include: true
+  space-after-comma:
+    - 2
+    - include: true
+  space-around-operator:
+    - 2
+    - include: true
+  space-before-brace:
+    - 2
+    - include: true
+  space-before-colon:
+    - 2
+    - include: false
+  space-between-parens:
+    - 2
+    - include: false
+  trailing-semicolon:
+    - 2
+    - include: true
+  variable-name-format:
+    - 2
+    - allow-leading-underscore: false
+  zero-unit:
+    - 2
+    - include: false

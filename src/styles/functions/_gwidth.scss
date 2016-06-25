@@ -1,0 +1,3 @@
+@function gwidth($cols) {
+	@return ($cols * $g-col) + (($cols - 1) * $g-gutter);
+}

@@ -1,0 +1,11 @@
+.icon {
+	display: inline-block;
+
+	&--thunder {
+		
+		&--opacity {
+			fill: #fff;
+			opacity: .1;
+		}
+	}
+}

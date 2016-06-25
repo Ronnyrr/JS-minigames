@@ -1,0 +1,72 @@
+{
+  "name": "JS-minigames",
+  "version": "1.0.0",
+  "description": "Some small ES6 javascript games",
+  "main": "dist/server/index.js",
+  "author": "Ronny Rook - Just Right Webdesign",
+  "scripts": {
+    "eslint": "eslint gulp src .eslintrc.js",
+    "sass-lint": "sass-lint -v -c .sasslint"
+  },
+  "eslintConfig": {
+    "env": {
+        "browser": true,
+        "node": true
+    }
+},
+  "precommit": [
+    "eslint",
+    "sass-lint"
+  ],
+  "dependencies": {
+    "express": "^4.13.4",
+    "google-maps": "^3.2.1",
+    "gulp-concat": "^2.6.0",
+    "jquery": "^3.0.0",
+    "js-marker-clusterer": "^1.0.0",
+    "normalize.css": "^4.0.0",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2",
+    "redux-thunk": "^2.1.0",
+    "serve-static": "^1.10.2",
+    "svgxuse": "^1.1.16",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.0.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-1": "^6.5.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1",
+    "eslint": "^2.9.0",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.8.1",
+    "eslint-plugin-jsx-a11y": "^1.0.4",
+    "eslint-plugin-react": "^5.0.1",
+    "globby": "^5.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.5.2",
+    "gulp-cssnano": "^2.1.1",
+    "gulp-file-include": "~0.13.7",
+    "gulp-order": "^1.1.1",
+    "gulp-sass": "^2.2.0",
+    "gulp-sort": "^2.0.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-svg-sprite": "^1.2.19",
+    "gulp-swig": "^0.8.0",
+    "gulp-uglify": "^1.5.3",
+    "gulp-uglifycss": "^1.0.6",
+    "gulp-util": "^3.0.7",
+    "nodemon": "^1.9.1",
+    "pre-commit": "^1.1.2",
+    "sass-lint": "^1.5.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  }
+}
