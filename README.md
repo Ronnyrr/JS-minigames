@@ -1,7 +1,12 @@
 ## JS minigames
 
-Node based application containing some javascript minigames. HTML lay-out using SWIG templating.
-Includes a memory and a simon says game.
+Node based application containing some javascript minigames.
+ES6 classes using jQuery library. HTML lay-out contains SWIG templating.
+
+## Games
+
+1. Memory ~ /memory
+2. Simon Says ~ /response
 
 ## Install
 
