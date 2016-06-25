@@ -1,6 +1,6 @@
 ## JS minigames
 
-Node based application containing some javascript minigames.
+Node based application containing some javascript minigames. Best performance on mobile devices (iPhone 6).
 ES6 classes using jQuery library. HTML lay-out contains SWIG templating.
 
 ## Games
